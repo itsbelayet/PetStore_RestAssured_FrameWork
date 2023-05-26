@@ -70,7 +70,7 @@ public class UserTests {
     public void testDeleteUserByName(){
         logger.info("*** Send Delete request by Name ***");
         Response response=UserEndPoints.deleteUser(this.userPaylod.getUsername());
-        Assert.assertEquals(response.getStatusCode(),200);
+        Assert.assertEquals(response.getStatusCode(),201);
         logger.info("-= Send Delete request successfull =-");
     }
 
