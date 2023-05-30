@@ -1,0 +1,16 @@
+[INFO ] 2023-05-29 23:46:54.247 [main] UserTests - *** Send post request ***
+[INFO ] 2023-05-29 23:46:57.203 [main] UserTests - -= Send post request successfull =-
+[INFO ] 2023-05-29 23:46:57.203 [main] UserTests - *** Send Get request by Name ***
+[INFO ] 2023-05-29 23:46:57.393 [main] UserTests - -= Send Get request successfull =-
+[INFO ] 2023-05-29 23:46:57.399 [main] UserTests - *** Send Put request by Name ***
+[INFO ] 2023-05-29 23:46:57.647 [main] UserTests - -= Send Put request successfull =-
+[INFO ] 2023-05-29 23:46:57.647 [main] UserTests - *** Send Delete request by Name ***
+[INFO ] 2023-05-29 23:46:57.777 [main] UserTests - -= Send Delete request successfull =-
+[INFO ] 2023-05-29 23:58:27.477 [main] UserTests - *** Send post request ***
+[INFO ] 2023-05-29 23:58:29.725 [main] UserTests - -= Send post request successfull =-
+[INFO ] 2023-05-29 23:58:29.740 [main] UserTests - *** Send Get request by Name ***
+[INFO ] 2023-05-29 23:58:29.868 [main] UserTests - -= Send Get request successfull =-
+[INFO ] 2023-05-29 23:58:29.868 [main] UserTests - *** Send Put request by Name ***
+[INFO ] 2023-05-29 23:58:30.213 [main] UserTests - -= Send Put request successfull =-
+[INFO ] 2023-05-29 23:58:30.213 [main] UserTests - *** Send Delete request by Name ***
+[INFO ] 2023-05-29 23:58:30.324 [main] UserTests - -= Send Delete request successfull =-

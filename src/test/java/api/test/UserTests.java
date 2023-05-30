@@ -40,6 +40,7 @@ public class UserTests {
         Assert.assertEquals(response.getStatusCode(),200);
         logger.info("-= Send post request successfull =-");
     }
+
     @Test(priority=2)
     public void testGetUserByName(){
         logger.info("*** Send Get request by Name ***");
@@ -48,6 +49,7 @@ public class UserTests {
         Assert.assertEquals(response.getStatusCode(),200);
         logger.info("-= Send Get request successfull =-");
     }
+
     @Test(priority = 3)
     public void testUpdateUserByName(){
         //Update data using payload
@@ -70,7 +72,7 @@ public class UserTests {
     public void testDeleteUserByName(){
         logger.info("*** Send Delete request by Name ***");
         Response response=UserEndPoints.deleteUser(this.userPaylod.getUsername());
-        Assert.assertEquals(response.getStatusCode(),201);
+        Assert.assertEquals(response.getStatusCode(),200);
         logger.info("-= Send Delete request successfull =-");
     }
 
